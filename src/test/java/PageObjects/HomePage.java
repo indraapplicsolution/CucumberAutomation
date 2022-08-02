@@ -74,6 +74,7 @@ public class HomePage extends TestBase {
             test.fail("Selected Book tab");
             Assert.fail("Selected Book tab");
         }
+
     }
 
     public void selectFlightType(String flightType) throws Exception {
