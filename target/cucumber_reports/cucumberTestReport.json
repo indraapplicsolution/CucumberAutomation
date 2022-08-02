@@ -1,0 +1,476 @@
+[
+  {
+    "line": 4,
+    "elements": [
+      {
+        "start_timestamp": "2022-08-01T19:10:35.852Z",
+        "before": [
+          {
+            "result": {
+              "duration": 441109900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinations.Hooks.InitiateExtentReport(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "This test books tickets for one way journey",
+        "description": "",
+        "id": "this-feature-books-the-flight-tickets;this-test-books-tickets-for-one-way-journey",
+        "after": [
+          {
+            "result": {
+              "duration": 370414400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinations.Hooks.closeExtentReport(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8449203100,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 999400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinations.Hooks.beforeStep()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "User open united home page",
+            "match": {
+              "location": "stepDefinations.unitedHomeSteps.UnitedHomeStepDef.user_open_united_home_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 3001700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinations.Hooks.screenshotAfterScenario(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1315273200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 936000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinations.Hooks.beforeStep()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "User selects Book tab",
+            "match": {
+              "location": "stepDefinations.unitedHomeSteps.UnitedHomeStepDef.userSelectsBookTab()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinations.Hooks.screenshotAfterScenario(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 204644500,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinations.Hooks.beforeStep()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "User selects flight type as \"oneway\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "oneway",
+                  "offset": 29
+                }
+              ],
+              "location": "stepDefinations.unitedHomeSteps.UnitedHomeStepDef.user_selects_flight_type_as_something(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 820400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinations.Hooks.screenshotAfterScenario(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RUN"
+          },
+          {
+            "name": "@REGRESSION"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-01T19:10:47.056Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinations.Hooks.InitiateExtentReport(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "This test books tickets for two way journey for flight type \"Roundtrip\"",
+        "description": "",
+        "id": "this-feature-books-the-flight-tickets;this-test-books-tickets-for-two-way-journey-for-flight-type-\"\u003cflighttype\u003e\";;2",
+        "after": [
+          {
+            "result": {
+              "duration": 22263400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinations.Hooks.closeExtentReport(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6280430300,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinations.Hooks.beforeStep()"
+                }
+              }
+            ],
+            "line": 12,
+            "name": "User open united home page",
+            "match": {
+              "location": "stepDefinations.unitedHomeSteps.UnitedHomeStepDef.user_open_united_home_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinations.Hooks.screenshotAfterScenario(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1279045300,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinations.Hooks.beforeStep()"
+                }
+              }
+            ],
+            "line": 13,
+            "name": "User selects Book tab",
+            "match": {
+              "location": "stepDefinations.unitedHomeSteps.UnitedHomeStepDef.userSelectsBookTab()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1003300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinations.Hooks.screenshotAfterScenario(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 145996400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinations.Hooks.beforeStep()"
+                }
+              }
+            ],
+            "line": 14,
+            "name": "User selects flight type as \"Roundtrip\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Roundtrip",
+                  "offset": 29
+                }
+              ],
+              "location": "stepDefinations.unitedHomeSteps.UnitedHomeStepDef.user_selects_flight_type_as_something(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 117000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinations.Hooks.screenshotAfterScenario(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RUN"
+          },
+          {
+            "name": "@REGRESSION"
+          },
+          {
+            "name": "@SMOKE"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-01T19:10:55.039Z",
+        "before": [
+          {
+            "result": {
+              "duration": 373300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinations.Hooks.InitiateExtentReport(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "This test books tickets for two way journey for flight type \"oneway\"",
+        "description": "",
+        "id": "this-feature-books-the-flight-tickets;this-test-books-tickets-for-two-way-journey-for-flight-type-\"\u003cflighttype\u003e\";;3",
+        "after": [
+          {
+            "result": {
+              "duration": 14999600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinations.Hooks.closeExtentReport(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3759165900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 999500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinations.Hooks.beforeStep()"
+                }
+              }
+            ],
+            "line": 12,
+            "name": "User open united home page",
+            "match": {
+              "location": "stepDefinations.unitedHomeSteps.UnitedHomeStepDef.user_open_united_home_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1274200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinations.Hooks.screenshotAfterScenario(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1335839000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinations.Hooks.beforeStep()"
+                }
+              }
+            ],
+            "line": 13,
+            "name": "User selects Book tab",
+            "match": {
+              "location": "stepDefinations.unitedHomeSteps.UnitedHomeStepDef.userSelectsBookTab()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinations.Hooks.screenshotAfterScenario(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 172716600,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1001200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinations.Hooks.beforeStep()"
+                }
+              }
+            ],
+            "line": 14,
+            "name": "User selects flight type as \"oneway\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "oneway",
+                  "offset": 29
+                }
+              ],
+              "location": "stepDefinations.unitedHomeSteps.UnitedHomeStepDef.user_selects_flight_type_as_something(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1634100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinations.Hooks.screenshotAfterScenario(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RUN"
+          },
+          {
+            "name": "@REGRESSION"
+          },
+          {
+            "name": "@SMOKE"
+          }
+        ]
+      }
+    ],
+    "name": "This feature books the flight tickets",
+    "description": "",
+    "id": "this-feature-books-the-flight-tickets",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/SmokeTestCases/TestingUnitedAirlines.feature",
+    "tags": [
+      {
+        "name": "@RUN",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@REGRESSION",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

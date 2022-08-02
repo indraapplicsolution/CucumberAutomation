@@ -1,0 +1,30 @@
+[INFO]-[02-Aug 12:40:36]-Browser selected#Chrome
+[INFO]-[02-Aug 12:40:36]-Operating System#Windows 11
+[INFO]-[02-Aug 12:40:39]-Chrome Browser started
+[INFO]-[02-Aug 12:40:44]-Loading:	 url
+[INFO]-[02-Aug 12:40:44]-Clicking object using By element : By.xpath: //li[@id='travelTab']
+[INFO]-[02-Aug 12:40:44]-Element is clickable with condition Implict wait
+[INFO]-[02-Aug 12:40:44]-Element is enabled or displayed in page
+[INFO]-[02-Aug 12:40:46]-Clicking object using By element : By.xpath: //input[@id='oneway']//following-sibling::span
+[INFO]-[02-Aug 12:40:46]-Element is clickable with condition Implict wait
+[INFO]-[02-Aug 12:40:46]-Element is enabled or displayed in page
+[INFO]-[02-Aug 12:40:47]-Browser selected#Chrome
+[INFO]-[02-Aug 12:40:47]-Operating System#Windows 11
+[INFO]-[02-Aug 12:40:48]-Chrome Browser started
+[INFO]-[02-Aug 12:40:53]-Loading:	 url
+[INFO]-[02-Aug 12:40:53]-Clicking object using By element : By.xpath: //li[@id='travelTab']
+[INFO]-[02-Aug 12:40:53]-Element is clickable with condition Implict wait
+[INFO]-[02-Aug 12:40:53]-Element is enabled or displayed in page
+[INFO]-[02-Aug 12:40:54]-Clicking object using By element : By.xpath: //input[@id='roundtrip']//following-sibling::span
+[INFO]-[02-Aug 12:40:54]-Element is clickable with condition Implict wait
+[INFO]-[02-Aug 12:40:54]-Element is enabled or displayed in page
+[INFO]-[02-Aug 12:40:55]-Browser selected#Chrome
+[INFO]-[02-Aug 12:40:55]-Operating System#Windows 11
+[INFO]-[02-Aug 12:40:56]-Chrome Browser started
+[INFO]-[02-Aug 12:40:58]-Loading:	 url
+[INFO]-[02-Aug 12:40:58]-Clicking object using By element : By.xpath: //li[@id='travelTab']
+[INFO]-[02-Aug 12:40:58]-Element is clickable with condition Implict wait
+[INFO]-[02-Aug 12:40:58]-Element is enabled or displayed in page
+[INFO]-[02-Aug 12:41:00]-Clicking object using By element : By.xpath: //input[@id='oneway']//following-sibling::span
+[INFO]-[02-Aug 12:41:00]-Element is clickable with condition Implict wait
+[INFO]-[02-Aug 12:41:00]-Element is enabled or displayed in page
