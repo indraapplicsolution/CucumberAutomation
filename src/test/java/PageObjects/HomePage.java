@@ -9,6 +9,7 @@ import java.util.List;
 import java.util.Locale;
 
 public class HomePage extends TestBase {
+
     private By menuLink;
     public By subMenuLink;
     private By travelTab;
@@ -75,6 +76,9 @@ public class HomePage extends TestBase {
             Assert.fail("Selected Book tab");
         }
 
+        logger.info("Indra");
+        logger.info("sayed");
+        logger.info("balaji");
     }
 
     public void selectFlightType(String flightType) throws Exception {
